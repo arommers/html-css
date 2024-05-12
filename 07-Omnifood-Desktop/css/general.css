@@ -131,8 +131,9 @@ body {
   letter-spacing: 0.75;
 }
 
-.heading-tertiary .btn:link,
-btn:visited {
+/* .heading-tertiary, */
+.btn:link,
+.btn:visited {
   display: inline-block;
   font-size: 2rem;
   font-weight: 600;
@@ -173,4 +174,8 @@ btn:visited {
 
 .margin-right-sm {
   margin-right: 1.6rem !important;
+}
+
+strong {
+  font-weight: 500;
 }
